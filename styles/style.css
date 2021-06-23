@@ -39,8 +39,6 @@
 	width: 730px;
 	padding: 0;
 	position: relative;
-	z-index: 1;
-	padding: 0;
 	line-height: 96px;
 	font-size: 102px;
 	font-weight: bold;
@@ -104,9 +102,6 @@
 .two-columns__main-text {
 	min-width: 784px;
 	width: 80%;
-}
-
-.two-columns__main-text {
 	line-height: 34px;
 	font-size: 24px;
 	font-weight: normal;
