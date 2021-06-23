@@ -13,14 +13,265 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
+  margin-bottom: 100px;
+  background-color: #F2F2F2;
+  display: flex;
+  align-items: center;
+  position: relative;
   /* parameters for the header section */
+}
+
+.logo {
+	height: 31px;
+	width: 154px;
+}
+
+.logo_place_header {
+	position: absolute;
+	z-index: 1;
+	left: 64px;
+	top: 30px;
+}
+
+.header__title {
+	z-index: 1;
+	margin-left: 64px;
+	width: 730px;
+	padding: 0;
+	position: relative;
+	z-index: 1;
+	padding: 0;
+	line-height: 96px;
+	font-size: 102px;
+	font-weight: bold;
+}
+
+.header__link {
+	text-decoration: none;
+}
+
+.header__subtitle {
+	position: absolute;
+	width: 388px;
+	left: 64px;
+	bottom: 30px;
+	line-height: 25px;
+	font-size: 18px;
+	font-weight: normal;
+	z-index: 1;
+}
+
+.header__main-illustration {
+	position: absolute;
+	height: 608px;
+	width: 765px;
+	bottom: 0;
+	right: 0;
+	z-index: 1;
 }
 
 /* here we have two examples of selectors in order to remind you how to set styles for elements */
 .header__square-pic {
   height: 568px;
   width: 568px;
+  position: absolute;
+  right: 0;
+  top: 64px;
+  background-color: #2F80ED;
 }
+
+.description {
+	overflow: hidden;
+}
+
+.two-columns {
+	display: flex;
+	justify-content: space-between;
+	margin-right: auto;
+	margin-left: auto;
+	width: 80%;
+}
+	
+
+.two-columns__brief {
+	width: 175px;
+	line-height: 1.2;
+	font-size: 18px;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+.two-columns__main-text {
+	min-width: 784px;
+	width: 80%;
+}
+
+.two-columns__main-text {
+	line-height: 34px;
+	font-size: 24px;
+	font-weight: normal;
+}
+
+.two-columns__span-accent {
+	line-height: 34px;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.digits {
+	margin-bottom: 100px;
+	margin-top: 100px;
+	
+}
+
+.section-title {
+	width: 60%;
+	margin-top: 100px;
+	margin-bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+	line-height: 1.15;
+	font-size: 60px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.section-subtitle {
+	width: 60%;
+	margin-top: 20px;
+	margin-bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+	line-height: 34px;
+	font-size: 24px;
+	font-weight: normal;
+	text-align: center;
+}
+
+.table {
+	width: 1100px;
+	margin-top: 60px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 100px;
+	padding-left: 0;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.table__cell {
+	width: 250px;
+	margin-top: 60px;
+	list-style: none;
+}
+
+.table__heading {
+	line-height: 1.15;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.table__text {
+	line-height: 1.2;
+	font-size: 18px;
+	font-weight: normal;
+}
+
+.feynman {
+	height: 790px;
+	position: relative;
+	overflow: hidden;
+	background-color: #F2F2F2;
+}
+
+.feynman__image {
+	position: absolute;
+	width: 867px;
+	height: 637px;
+	bottom: 0;
+	left: 0;
+
+}
+
+.feynman__title {
+	width: 775px;
+	margin-top: 100px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 70px;
+	position: relative;
+	padding: 0;
+	text-align: center;
+	z-index: 1;
+	line-height: 1.15;
+	font-size: 120px;
+	font-weight: bold;
+}
+
+.feynman__subtitle {
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 0;
+	position: relative;
+	text-align: center;
+	line-height: 51px;
+	font-size: 36px;
+	font-weight: normal;
+}
+
+.feynman__link {
+	top: 50%;
+	right: 48px;
+	position: absolute;
+	line-height: 51px;
+	font-size: 36px;
+	font-weight: normal;
+	text-decoration: none;
+	
+}
+
+.kaufman {
+	position:relative;
+	overflow: hidden;
+	background-color: #1F1F1F;
+	
+}
+
+.kaufman__triangle {
+	position: absolute;
+	width: 877px;
+	top: 0;
+	height: 877px;
+	right: -210px;
+}
+
+.section-title_theme_dark {
+	width: 60%;
+	margin-top: 90px;
+	position: relative;
+	z-index: 1;
+	color: white;
+}
+
+.section-subtitle_theme_dark {
+	width: 60%;
+	top: 20px;
+	color: white;
+}
+
+.table_theme_dark {
+	line-height: 1.15;
+	font-size: 24px;
+	font-weight: bold;
+	z-index: 1;
+	position: relative;
+}
+
 
 /* including elements with key-value modifiers */
 .table__cell_theme_dark {
@@ -29,3 +280,75 @@
   margin-right: 0;
   margin-top: 80px;
 }
+
+.footer {
+	background-color: #1F1F1F;
+	color: white;
+	min-height: 350px;
+	overflow: hidden;
+}
+
+.footer__columns {
+	width: 90%;
+	margin-top: 60px;
+	margin-bottom: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer__column {
+	margin: 0;
+	padding: 0;
+}
+
+.footer__column_content_copyright {
+	flex-basis: 711px;
+	display: flex;
+	flex-direction: column;
+	min-height: 250px;
+	
+}
+
+.footer__author {
+	color: white;
+	margin-top: auto;
+	margin-bottom: 18px;
+	line-height: 25px;
+	font-size:18px;
+	font-weight: normal;
+}
+
+.footer__column-heading {
+	margin-bottom: 20px;
+	padding: 0;
+	margin-top: 0;
+	margin-left: 0;
+	margin-right: 0;
+	line-height: 45px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.footer__column-links {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	line-height: 30px;
+	font-size: 18px;
+	font-weight: normal;
+}
+
+.footer__link {
+	margin: 0;
+	padding: 0;
+	color: white;
+	text-decoration: none;
+}
+
+.footer__social-link {
+	height: 16px;
+	width: 16px;
+}
+
